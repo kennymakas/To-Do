@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+background-color: aquamarine;
+}
+.title{
+    margin-top: 50px;
+    margin-top: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    align-content: center;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 400%;
+}
+.title h3{
+    margin: 1rem;
+    font-size: 200%;
+}
+.title p{
+    font-size: 200%;
+    margin: 1.5rem;
+}
+.title input{
+    width: 500px;
+    height: 50px;
+}
