@@ -7,13 +7,22 @@
     <title>Todo</title>
 </head>
 <body>
-    <section class="title">
-        <h1>ToDo List</h1>
-        <use href="#checklist-icon">
-        <h3>Add your first todo</h3>
-        <p>What do you want to get done today?</p>
-        <input type="text" placeholder="e.g KCF session at 11am">
-
-    </section>
+<div class="container">
+    <div class="todo-app">
+        <h2>TO-Do List 
+            <img src="images/todo.png" alt="" srcset="">
+        </h2>
+        <div class="hor">
+            <input type="text" id="input-box" placeholder="Add your text">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list">
+                <!-- <li class="check">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+        </ul>
+    </div>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
