@@ -5,9 +5,7 @@
     box-sizing: border-box;
 
 }
-body{
-    background-image: url(images/step\ by\ step.png);
-}
+
 .container{
     width: 100%;
     min-height: 100vh;
@@ -79,10 +77,11 @@ ul li::before{
     position: absolute;
     height: 28px;
     width: 28px;
-    border-radius: 30px;
+    border-radius: 20px;
     background-image: url(images/unchecked.png);
     background-size: cover;
     background-position: center;
+    border-color: rgb(42, 95, 165);
     top: 12px;
     left: 8px;
 
